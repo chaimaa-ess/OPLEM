@@ -9,9 +9,9 @@ setup(
     description='Open Platform for Local Energy Markets',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/EsaLaboratory/oplem',
+    url='https://github.com/chaimaa-ess/OPLEM',
     author='Chaimaa Essayeh',
-    author_email='cessayeh@ed.ac.uk',
+    author_email='chaimaa.essayeh@gmail.com',
     license='MIT',
     packages=['oplem'], #same as name
     package_dir={"": "src"},
