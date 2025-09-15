@@ -29,6 +29,7 @@ import copy
 import pandas as pd
 import numpy as np
 import picos as pic
+import pickle
 import pandapower as pp
 import oplem.Participant as Participant
 
@@ -1391,3 +1392,4 @@ class Capacity_limits(Market):
 				C_min[t, :] = np.array(Cmin.value)[:, 0]
 
 		return C_max, C_min
+
